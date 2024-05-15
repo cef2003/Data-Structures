@@ -1,4 +1,4 @@
-class disjoint_sets:
+class DisjointSet:
     def __init__(self, nb_of_items):
         self.ens = []
         for i in range(0,nb_of_items):
